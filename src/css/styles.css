@@ -10,11 +10,59 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  margin: 0;
 }
 
-#search-box {
-  font: inherit;
-  padding: 8px;
-  max-width: 320px;
-  margin-bottom: 16px;
+.search-form {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  background-color: blueviolet;
+}
+
+.gallery{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+img {
+  width: 280px;
+  height: 180px;
+}
+
+.photo-card {
+  margin: 10px;
+  border: 1px solid #cec4cf;
+}
+
+.info {
+  display: flex;
+  width: 280px;
+  padding: 10px;
+}
+
+.info-item {
+  margin: 0;
+  font-size: smaller;
+}
+
+.info-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.load-more {
+  background-color: blueviolet;
+  color: #fafafa;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+  width: 150px;
+  margin: 10px;
+}
+
+.is-hidden {
+  display: none;
 }
