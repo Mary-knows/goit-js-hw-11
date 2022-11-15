@@ -53,14 +53,21 @@ img {
   margin-right: 10px;
 }
 
+.load-more-btn {
+  display: flex;
+  justify-content: center;
+  margin-top: 15px;
+  margin-bottom: 35px;
+}
+
 .load-more {
   background-color: blueviolet;
   color: #fafafa;
   border-radius: 5px;
+  border: none;
   padding: 10px;
   font-size: 15px;
   width: 150px;
-  margin: 10px;
 }
 
 .is-hidden {
